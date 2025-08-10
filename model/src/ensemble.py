@@ -15,9 +15,31 @@ from utility import (
     generate_feature_distribution,
     similarity_score,
 )
+from sklearn.base import BaseEstimator, OutlierMixin
 
 
-class DiFF_RF_Plus:
+class DiFF_RF_Wrapper(BaseEstimator, OutlierMixin):
+    def __init__(self, n_trees=100, sample_size=256, alpha=1.0):
+        self.n_trees = n_trees
+        self.sample_size = sample_size
+        self.alpha = alpha
+        self.model = DiFF_RF(sample_size=self.sample_size, n_trees=self.n_trees)
+
+    def fit(self, X, y=None):
+        actual_sample_size = min(self.sample_size, len(X))
+        self.model = DiFF_RF(sample_size=actual_sample_size, n_trees=self.n_trees)
+        self.model.fit(X, n_jobs=-1)
+        return self
+
+    def decision_function(self, X):
+        return self.model.anomaly_score(X, alpha=self.alpha)["collective"]
+
+    def predict(self, X):
+        scores = self.decision_function(X)
+        return (scores > 0.5).astype(int)
+
+
+class DiFF_RF:
     """
     Distance-based and Frequency-based Forest (DiFF-RF) for anomaly detection.
 
@@ -106,11 +128,12 @@ class DiFF_RF_Plus:
         """
         Process data through all trees in the forest.
         """
-        self.pointwise_scores.resize((len(data), self.n_trees))
-        self.frequency_scores.resize((len(data), self.n_trees))
-        self.collective_scores.resize((len(data), self.n_trees))
+        self.pointwise_scores = np.zeros((len(data), self.n_trees))
+        self.frequency_scores = np.zeros((len(data), self.n_trees))
+        self.collective_scores = np.zeros((len(data), self.n_trees))
 
         for tree_idx, tree in enumerate(self.trees):
+            # Uses a boolean mask to track which instances are in which node
             cur_idx = np.ones(len(data), dtype=bool)
             self.walk_tree(
                 tree, tree_idx, cur_idx, data, self.feature_distribution, alpha=self.alpha

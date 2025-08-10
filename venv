@@ -30,6 +30,10 @@ pip install \
     tqdm \
     python-can \
     cantools \
-    pandas
+    pandas \
+    matplotlib \
+    seaborn \
+    ipython \
+    tdqm \
 
 echo "Virtual environment setup complete. Run 'source $VENV_DIR/bin/activate' to use it."

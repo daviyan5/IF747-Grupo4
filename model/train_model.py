@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import random
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import entropy
+from sklearn.metrics import (
+    roc_curve,
+    auc,
+    precision_recall_fscore_support,
+    accuracy_score,
+    make_scorer,
+    roc_auc_score,
+    confusion_matrix,
+)
+from sklearn.model_selection import RandomizedSearchCV, PredefinedSplit
+from sklearn.preprocessing import LabelEncoder
+import joblib
+from tqdm import tqdm
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
+
+from ensemble import DiFF_RF, DiFF_RF_Wrapper
+
+
+def calculate_entropy(hex_str):
+    if pd.isna(hex_str):
+        return 0
+    bytes_list = [int(hex_str[i : i + 2], 16) for i in range(0, min(len(str(hex_str)), 16), 2)]
+    if not bytes_list:
+        return 0
+    counts = np.bincount(bytes_list, minlength=256)
+    probs = counts[counts > 0] / len(bytes_list)
+    return entropy(probs, base=2)
+
+
+def extract_features(df, id_map):
+    df["Data (HEX)"] = df["Data (HEX)"].fillna("0")
+    df["ID (HEX)"] = df["ID (HEX)"].fillna("0")
+
+    df["ID_int"] = df["ID (HEX)"].map(id_map).fillna(-1).astype(int)
+    df["time_diff_by_id"] = df.groupby("ID (HEX)")["Timestamp"].diff().fillna(0)
+
+    data_bytes_list = (
+        df["Data (HEX)"]
+        .apply(lambda x: [int(x[i : i + 2], 16) for i in range(0, min(len(str(x)), 16), 2)])
+        .tolist()
+    )
+
+    df["payload_sum"] = [sum(bl) for bl in data_bytes_list]
+    df["payload_mean"] = [np.mean(bl) if bl else 0 for bl in data_bytes_list]
+    df["payload_std"] = [np.std(bl) if len(bl) > 1 else 0 for bl in data_bytes_list]
+    df["payload_entropy"] = df["Data (HEX)"].apply(calculate_entropy)
+
+    df["msg_rate"] = 1 / (df["time_diff_by_id"] + 1e-6)
+
+    # Rolling features over a time window (e.g., 10 messages) for each ID
+    window_size = 10
+    df["rolling_mean_interval"] = df.groupby("ID (HEX)")["time_diff_by_id"].transform(
+        lambda x: x.rolling(window=window_size, min_periods=1).mean()
+    )
+    df["rolling_std_interval"] = (
+        df.groupby("ID (HEX)")["time_diff_by_id"]
+        .transform(lambda x: x.rolling(window=window_size, min_periods=1).std())
+        .fillna(0)
+    )
+
+    features = [
+        "ID_int",
+        "time_diff_by_id",
+        "payload_sum",
+        "payload_mean",
+        "payload_std",
+        "payload_entropy",
+        "msg_rate",
+        "rolling_mean_interval",
+        "rolling_std_interval",
+    ]
+
+    processed_df = df.copy()
+
+    le = LabelEncoder()
+    processed_df["label"] = le.fit_transform(processed_df["Legitimacy"])
+    if "Benign" in le.classes_ and le.transform(["Benign"])[0] != 0:
+        processed_df["label"] = 1 - processed_df["label"]
+
+    return processed_df, features
+
+
+def load_and_merge_data(base_csv_path, output_path):
+    print("Step 1: Loading and merging data...")
+
+    file_paths = {
+        "Body_ECU": os.path.join(base_csv_path, "Body_ECU_log.csv"),
+        "Chassis_ECU": os.path.join(base_csv_path, "Chassis_ECU_log.csv"),
+        "PowerTrain_ECU": os.path.join(base_csv_path, "PowerTrain_ECU_log.csv"),
+        "dos_attack": os.path.join(base_csv_path, "dos_attack_log.csv"),
+        "fuzzing_attack": os.path.join(base_csv_path, "fuzzing_attack_log.csv"),
+        "replay_attack": os.path.join(base_csv_path, "replay_attack_log.csv"),
+        "spoofing_attack": os.path.join(base_csv_path, "spoofing_attack_log.csv"),
+    }
+
+    dataframes = []
+    for source, path in tqdm(file_paths.items(), desc="Loading CSVs"):
+        if os.path.exists(path):
+            df = pd.read_csv(path)
+            df["Source"] = source
+            dataframes.append(df)
+
+    if not dataframes:
+        raise FileNotFoundError("No CSV files found in the specified directory.")
+
+    full_df = pd.concat(dataframes, ignore_index=True)
+    full_df = full_df.sort_values(by="Timestamp").reset_index(drop=True)
+
+    merged_csv_path = os.path.join(output_path, "data.csv")
+    full_df.to_csv(merged_csv_path, index=False)
+    print(f"Merged data sorted and saved to {merged_csv_path}")
+    return merged_csv_path
+
+
+def create_chronological_split(merged_csv_path, output_path, train_ratio=0.6, val_ratio=0.2):
+    print("Step 2: Creating chronological data splits...")
+    df = pd.read_csv(merged_csv_path)
+
+    train_end_idx = int(len(df) * train_ratio)
+    val_end_idx = int(len(df) * (train_ratio + val_ratio))
+
+    train_df = df.iloc[:train_end_idx]
+    val_df = df.iloc[train_end_idx:val_end_idx]
+    test_df = df.iloc[val_end_idx:]
+
+    train_df = train_df[train_df["Legitimacy"] == "Benign"]
+
+    train_csv_path = os.path.join(output_path, "train.csv")
+    val_csv_path = os.path.join(output_path, "validation.csv")
+    test_csv_path = os.path.join(output_path, "test.csv")
+
+    train_df.to_csv(train_csv_path, index=False)
+    val_df.to_csv(val_csv_path, index=False)
+    test_df.to_csv(test_csv_path, index=False)
+
+    print(f"Training data: {len(train_df)} benign samples")
+    print(f"Validation data: {len(val_df)} samples")
+    print(f"Test data: {len(test_df)} samples")
+
+    return train_csv_path, val_csv_path, test_csv_path
+
+
+def hyperparameter_search(train_data, validation_data, features, n_iter=200):
+    print("\nStep 3: Hyperparameter search...")
+
+    param_dist = {
+        "n_trees": [3, 8, 16, 32, 64, 128, 256],
+        "sample_size": [16, 32, 64, 128, 256],
+        "alpha": np.logspace(-4, 1, 6),
+    }
+
+    X_combined = pd.concat([train_data[features], validation_data[features]], ignore_index=True)
+    y_combined = pd.concat([train_data["label"], validation_data["label"]], ignore_index=True)
+
+    split_index = [-1] * len(train_data) + [0] * len(validation_data)
+    pds = PredefinedSplit(test_fold=split_index)
+
+    estimator = DiFF_RF_Wrapper()
+    auc_scorer = make_scorer(roc_auc_score)
+
+    random_search = RandomizedSearchCV(
+        estimator=estimator,
+        param_distributions=param_dist,
+        n_iter=n_iter,
+        scoring=auc_scorer,
+        cv=pds,
+        n_jobs=-1,
+        random_state=42,
+        verbose=1,
+    )
+
+    random_search.fit(X_combined.values, y_combined.values)
+
+    print(f"Best Hyperparameter AUC: {random_search.best_score_:.4f}")
+    print(f"Best params: {random_search.best_params_}")
+    return random_search.best_params_
+
+
+def find_optimal_threshold(model, validation_data, features, params):
+    print("\nStep 5: Finding optimal threshold on validation set...")
+    X_val = validation_data[features].values
+    y_val = validation_data["label"].values
+
+    scores = model.anomaly_score(X_val, alpha=params["alpha"])["collective"]
+
+    fpr, tpr, thresholds = roc_curve(y_val, scores)
+
+    optimal_idx = np.argmax(tpr - fpr)
+    optimal_threshold = thresholds[optimal_idx]
+
+    print(f"Optimal threshold found: {optimal_threshold:.4f}")
+    return optimal_threshold
+
+
+def plot_confusion_matrix(y_true, y_pred, results_path):
+    cm = confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(
+        cm,
+        annot=True,
+        fmt="d",
+        cmap="Blues",
+        xticklabels=["Benign", "Malicious"],
+        yticklabels=["Benign", "Malicious"],
+    )
+    plt.title("Confusion Matrix (Test Set)")
+    plt.ylabel("Actual Label")
+    plt.xlabel("Predicted Label")
+    cm_path = os.path.join(results_path, "confusion_matrix.png")
+    plt.savefig(cm_path)
+    plt.close()
+
+
+def evaluate_accuracy_by_source(test_data_with_preds, results_path):
+    print("\n--- Accuracy by Source ---")
+
+    source_accuracy = test_data_with_preds.groupby("Source").apply(
+        lambda x: accuracy_score(x["label"], x["predicted_label"]), include_groups=False
+    )
+
+    source_accuracy_df = source_accuracy.reset_index(name="accuracy")
+
+    print(source_accuracy_df.to_string(index=False))
+
+    accuracy_by_source_path = os.path.join(results_path, "accuracy_by_source.csv")
+    source_accuracy_df.to_csv(accuracy_by_source_path, index=False)
+    print(f"\nSource-specific accuracy table saved to {accuracy_by_source_path}")
+
+
+def evaluate_model(model, test_data, features, results_path, model_params, threshold):
+    print("\nStep 6: Evaluating final model on the unseen test set...")
+
+    X_test = test_data[features].values
+    y_true = test_data["label"].values
+
+    scores = model.anomaly_score(X_test, alpha=model_params["alpha"])["collective"]
+
+    fpr, tpr, _ = roc_curve(y_true, scores)
+    roc_auc = auc(fpr, tpr)
+
+    plt.figure(figsize=(10, 8))
+    plt.plot(fpr, tpr, lw=2, label=f"Test Set ROC Curve (AUC = {roc_auc:.4f})")
+    plt.plot([0, 1], [0, 1], "k--", lw=2, label="Random Chance")
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("Receiver Operating Characteristic (ROC) on Test Set")
+    plt.legend(loc="lower right")
+    roc_path = os.path.join(results_path, "roc_curve.png")
+    plt.savefig(roc_path)
+    plt.close()
+
+    y_pred = (scores >= threshold).astype(int)
+
+    precision, recall, f1, _ = precision_recall_fscore_support(
+        y_true, y_pred, average="binary", zero_division=0
+    )
+    accuracy = accuracy_score(y_true, y_pred)
+
+    results = {
+        "auc": roc_auc,
+        "precision": precision,
+        "recall": recall,
+        "f1_score": f1,
+        "accuracy": accuracy,
+        "threshold": threshold,
+    }
+
+    metrics_df = pd.DataFrame([results])
+    metrics_path = os.path.join(results_path, "test_metrics.csv")
+    metrics_df.to_csv(metrics_path, index=False)
+
+    plot_confusion_matrix(y_true, y_pred, results_path)
+
+    test_data_with_preds = test_data.copy()
+    test_data_with_preds["predicted_label"] = y_pred
+
+    evaluate_accuracy_by_source(test_data_with_preds, results_path)
+
+    return results
+
+
+def save_model(model, params, features, results_path):
+    print("\nStep 7: Saving model...")
+    model_payload = {"model": model, "params": params, "features": features}
+    model_path = os.path.join(results_path, "diff_rf_model.joblib")
+    joblib.dump(model_payload, model_path)
+    print(f"Model saved to {model_path}")
+
+
+if __name__ == "__main__":
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    BASE_CSV_PATH = os.path.abspath(os.path.join(SCRIPT_DIR, "../csv"))
+    RESULTS_PATH = os.path.abspath(os.path.join(SCRIPT_DIR, "../results"))
+
+    if not os.path.exists(RESULTS_PATH):
+        os.makedirs(RESULTS_PATH)
+
+    try:
+        merged_path = load_and_merge_data(BASE_CSV_PATH, BASE_CSV_PATH)
+
+        train_path, val_path, test_path = create_chronological_split(merged_path, BASE_CSV_PATH)
+
+        train_df_raw = pd.read_csv(train_path)
+        val_df_raw = pd.read_csv(val_path)
+        test_df_raw = pd.read_csv(test_path)
+
+        id_map = {id_val: i for i, id_val in enumerate(train_df_raw["ID (HEX)"].unique())}
+
+        train_df, features = extract_features(train_df_raw, id_map)
+        val_df, _ = extract_features(val_df_raw, id_map)
+        test_df, _ = extract_features(test_df_raw, id_map)
+
+        best_params = hyperparameter_search(train_df, val_df, features, n_iter=25)
+
+        print("\nStep 4: Training final model with best parameters...")
+        final_model = DiFF_RF(
+            sample_size=best_params["sample_size"], n_trees=best_params["n_trees"]
+        )
+        final_model.fit(train_df[features].values, n_jobs=-1)
+
+        optimal_threshold = find_optimal_threshold(final_model, val_df, features, best_params)
+
+        results = evaluate_model(
+            final_model, test_df, features, RESULTS_PATH, best_params, optimal_threshold
+        )
+
+        print("\n--- Final Test Set Results ---")
+        for metric, value in results.items():
+            print(f"  {metric.replace('_', ' ').capitalize()}: {value:.4f}")
+
+        save_model(final_model, best_params, features, RESULTS_PATH)
+
+    except Exception as e:
+        import traceback
+
+        traceback.print_exc()
