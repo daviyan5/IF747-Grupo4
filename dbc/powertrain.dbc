@@ -1,0 +1,16 @@
+VERSION ""
+
+NS_ :
+BS_:
+
+BU_: Chassis_ECU PowerTrain_ECU Body_ECU
+
+BO_ 36 Brake_Output_Indicator: 2 PowerTrain_ECU
+ SG_ Brake_Output : 7|16@0+ (0.09775,0) [0|100] "%" Chassis_ECU
+
+BO_ 57 Throttle_Position: 2 PowerTrain_ECU
+ SG_ Throttle_Percentage : 7|16@0+ (0.09775,0) [0|100] "%" Chassis_ECU
+
+BO_ 67 Engine_RPM_Speed: 4 PowerTrain_ECU
+ SG_ Engine_RPM : 7|16@0+ (1,0) [0|65535] "rpm" Chassis_ECU
+ SG_ Vehicle_Speed : 23|16@0- (1,0) [-32767|32767] "km/h" Chassis_ECU

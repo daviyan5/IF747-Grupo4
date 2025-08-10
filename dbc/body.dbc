@@ -1,0 +1,21 @@
+VERSION ""
+
+NS_ :
+BS_:
+
+BU_: Chassis_ECU PowerTrain_ECU Body_ECU
+
+BO_ 141 Turn_Signal_Indicator: 1 Body_ECU
+ SG_ Left_Turn_Active : 0|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ Right_Turn_Active : 1|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ Hazard_Active : 2|1@0+ (1,0) [0|1] "" Chassis_ECU
+
+BO_ 162 Horn_Operation: 1 Body_ECU
+ SG_ Horn_Active : 0|1@0+ (1,0) [0|1] "" Chassis_ECU
+
+BO_ 656 Door_Status: 2 Body_ECU
+ SG_ Driver_Door_Open : 0|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ Passenger_Door_Open : 1|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ Rear_Left_Door_Open : 2|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ Rear_Right_Door_Open : 3|1@0+ (1,0) [0|1] "" Chassis_ECU
+ SG_ All_Doors_Locked : 8|1@0+ (1,0) [0|1] "" Chassis_ECU

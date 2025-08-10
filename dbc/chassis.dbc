@@ -1,0 +1,28 @@
+VERSION ""
+
+NS_ :
+BS_:
+
+BU_: Chassis_ECU PowerTrain_ECU Body_ECU
+
+BO_ 26 Brake_Operation_Indicator: 2 Chassis_ECU
+ SG_ Brake_Percentage : 7|16@0+ (0.09775,0) [0|100] "%" PowerTrain_ECU
+
+BO_ 47 Accelerator_Pedal_Operation: 2 Chassis_ECU
+ SG_ Accelerator_Position : 7|16@0+ (0.09775,0) [0|100] "%" PowerTrain_ECU
+
+BO_ 88 Steering_Wheel_Operation: 2 Chassis_ECU
+ SG_ Steering_Angle : 7|16@0- (0.1,-51.1) [-51.1|51.1] "deg" PowerTrain_ECU
+
+BO_ 131 Turn_Signal_Hazard_Switch: 1 Chassis_ECU
+ SG_ Left_Turn : 0|1@0+ (1,0) [0|1] "" Body_ECU
+ SG_ Right_Turn : 1|1@0+ (1,0) [0|1] "" Body_ECU
+ SG_ Hazard : 2|1@0+ (1,0) [0|1] "" Body_ECU
+
+BO_ 152 Horn_Switch: 1 Chassis_ECU
+ SG_ Horn_Pressed : 0|1@0+ (1,0) [0|1] "" Body_ECU
+
+BO_ 646 Door_Lock_Control: 1 Chassis_ECU
+ SG_ Lock_All : 0|1@0+ (1,0) [0|1] "" Body_ECU
+ SG_ Unlock_All : 1|1@0+ (1,0) [0|1] "" Body_ECU
+ SG_ Unlock_Driver : 2|1@0+ (1,0) [0|1] "" Body_ECU
