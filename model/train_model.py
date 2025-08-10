@@ -13,7 +13,7 @@ from sklearn.metrics import (
     auc,
     precision_recall_fscore_support,
     accuracy_score,
-    make_scorer,
+    f1_score,
     roc_auc_score,
     confusion_matrix,
 )
@@ -31,7 +31,10 @@ from ensemble import DiFF_RF, DiFF_RF_Wrapper
 def calculate_entropy(hex_str):
     if pd.isna(hex_str):
         return 0
-    bytes_list = [int(hex_str[i : i + 2], 16) for i in range(0, min(len(str(hex_str)), 16), 2)]
+    hex_str = str(hex_str)
+    if len(hex_str) % 2 != 0:
+        hex_str = "0" + hex_str
+    bytes_list = [int(hex_str[i : i + 2], 16) for i in range(0, len(hex_str), 2)]
     if not bytes_list:
         return 0
     counts = np.bincount(bytes_list, minlength=256)
@@ -59,7 +62,6 @@ def extract_features(df, id_map):
 
     df["msg_rate"] = 1 / (df["time_diff_by_id"] + 1e-6)
 
-    # Rolling features over a time window (e.g., 10 messages) for each ID
     window_size = 10
     df["rolling_mean_interval"] = df.groupby("ID (HEX)")["time_diff_by_id"].transform(
         lambda x: x.rolling(window=window_size, min_periods=1).mean()
@@ -124,18 +126,17 @@ def load_and_merge_data(base_csv_path, output_path):
     return merged_csv_path
 
 
-def create_chronological_split(merged_csv_path, output_path, train_ratio=0.6, val_ratio=0.2):
-    print("Step 2: Creating chronological data splits...")
+def create_data_splits(merged_csv_path, output_path, train_val_ratio=0.7, val_ratio=0.2):
+    print("Step 2: Creating robust chronological data splits...")
     df = pd.read_csv(merged_csv_path)
 
-    train_end_idx = int(len(df) * train_ratio)
-    val_end_idx = int(len(df) * (train_ratio + val_ratio))
+    train_val_end_idx = int(len(df) * train_val_ratio)
+    train_val_df = df.iloc[:train_val_end_idx]
+    test_df = df.iloc[train_val_end_idx:]
 
-    train_df = df.iloc[:train_end_idx]
-    val_df = df.iloc[train_end_idx:val_end_idx]
-    test_df = df.iloc[val_end_idx:]
-
-    train_df = train_df[train_df["Legitimacy"] == "Benign"]
+    train_end_idx = int(len(train_val_df) * (1 - val_ratio))
+    train_df = train_val_df.iloc[:train_end_idx]
+    val_df = train_val_df.iloc[train_end_idx:]
 
     train_csv_path = os.path.join(output_path, "train.csv")
     val_csv_path = os.path.join(output_path, "validation.csv")
@@ -145,15 +146,15 @@ def create_chronological_split(merged_csv_path, output_path, train_ratio=0.6, va
     val_df.to_csv(val_csv_path, index=False)
     test_df.to_csv(test_csv_path, index=False)
 
-    print(f"Training data: {len(train_df)} benign samples")
+    print(f"Training data: {len(train_df)} samples")
     print(f"Validation data: {len(val_df)} samples")
     print(f"Test data: {len(test_df)} samples")
 
     return train_csv_path, val_csv_path, test_csv_path
 
 
-def hyperparameter_search(train_data, validation_data, features, n_iter=200):
-    print("\nStep 3: Hyperparameter search...")
+def hyperparameter_search(train_df, val_df, features, n_iter=200):
+    print("\nStep 3: Supervised Hyperparameter Search...")
 
     param_dist = {
         "n_trees": [3, 8, 16, 32, 64, 128, 256],
@@ -161,45 +162,54 @@ def hyperparameter_search(train_data, validation_data, features, n_iter=200):
         "alpha": np.logspace(-4, 1, 6),
     }
 
-    X_combined = pd.concat([train_data[features], validation_data[features]], ignore_index=True)
-    y_combined = pd.concat([train_data["label"], validation_data["label"]], ignore_index=True)
+    X_train_benign = train_df[train_df["label"] == 0][features]
 
-    split_index = [-1] * len(train_data) + [0] * len(validation_data)
+    X_search = pd.concat([X_train_benign, val_df[features]], ignore_index=True)
+
+    y_search = pd.Series([0] * len(X_search))
+
+    split_index = [-1] * len(X_train_benign) + [0] * len(val_df)
     pds = PredefinedSplit(test_fold=split_index)
 
     estimator = DiFF_RF_Wrapper()
-    auc_scorer = make_scorer(roc_auc_score)
+
+    def validation_scorer(estimator, X, y):
+        y_val_true = val_df["label"].values
+        scores = estimator.decision_function(X, alpha=estimator.get_params()["alpha"])["collective"]
+        return roc_auc_score(y_val_true, scores)
 
     random_search = RandomizedSearchCV(
         estimator=estimator,
         param_distributions=param_dist,
         n_iter=n_iter,
-        scoring=auc_scorer,
+        scoring=validation_scorer,
         cv=pds,
         n_jobs=-1,
         random_state=42,
         verbose=1,
     )
 
-    random_search.fit(X_combined.values, y_combined.values)
+    random_search.fit(X_search.values, y_search.values)
 
-    print(f"Best Hyperparameter AUC: {random_search.best_score_:.4f}")
+    print(f"Best Hyperparameter ROC AUC Score on Validation: {random_search.best_score_:.4f}")
     print(f"Best params: {random_search.best_params_}")
     return random_search.best_params_
 
 
-def find_optimal_threshold(model, validation_data, features, params):
+def find_optimal_threshold(model, val_data, features, params):
     print("\nStep 5: Finding optimal threshold on validation set...")
-    X_val = validation_data[features].values
-    y_val = validation_data["label"].values
+    X_val = val_data[features].values
+    y_val = val_data["label"].values
 
     scores = model.anomaly_score(X_val, alpha=params["alpha"])["collective"]
 
-    fpr, tpr, thresholds = roc_curve(y_val, scores)
+    thresholds = np.linspace(np.min(scores), np.max(scores), 1000)
+    f1_scores = [f1_score(y_val, (scores >= t).astype(int)) for t in thresholds]
 
-    optimal_idx = np.argmax(tpr - fpr)
-    optimal_threshold = thresholds[optimal_idx]
+    best_f1 = np.max(f1_scores)
+    optimal_threshold = thresholds[np.argmax(f1_scores)]
 
+    print(f"Best F1-score on validation set: {best_f1:.4f}")
     print(f"Optimal threshold found: {optimal_threshold:.4f}")
     return optimal_threshold
 
@@ -293,12 +303,18 @@ def evaluate_model(model, test_data, features, results_path, model_params, thres
     return results
 
 
-def save_model(model, params, features, results_path):
-    print("\nStep 7: Saving model...")
-    model_payload = {"model": model, "params": params, "features": features}
-    model_path = os.path.join(results_path, "diff_rf_model.joblib")
-    joblib.dump(model_payload, model_path)
-    print(f"Model saved to {model_path}")
+def save_hyperparameters(params, features, id_map, results_path):
+    print("\nStep 7: Saving hyperparameters and artifacts...")
+
+    hyperparams_payload = {
+        "params": params,
+        "features": features,
+        "id_map": id_map,
+    }
+
+    params_path = os.path.join(results_path, "diff_rf_hyperparams.joblib")
+    joblib.dump(hyperparams_payload, params_path)
+    print(f"Hyperparameters and artifacts saved to {params_path}")
 
 
 if __name__ == "__main__":
@@ -312,25 +328,29 @@ if __name__ == "__main__":
     try:
         merged_path = load_and_merge_data(BASE_CSV_PATH, BASE_CSV_PATH)
 
-        train_path, val_path, test_path = create_chronological_split(merged_path, BASE_CSV_PATH)
+        train_path, val_path, test_path = create_data_splits(merged_path, BASE_CSV_PATH)
 
         train_df_raw = pd.read_csv(train_path)
         val_df_raw = pd.read_csv(val_path)
         test_df_raw = pd.read_csv(test_path)
 
-        id_map = {id_val: i for i, id_val in enumerate(train_df_raw["ID (HEX)"].unique())}
+        all_ids = train_df_raw["ID (HEX)"].unique()
+        id_map = {id_val: i for i, id_val in enumerate(all_ids)}
 
         train_df, features = extract_features(train_df_raw, id_map)
         val_df, _ = extract_features(val_df_raw, id_map)
         test_df, _ = extract_features(test_df_raw, id_map)
 
-        best_params = hyperparameter_search(train_df, val_df, features, n_iter=25)
+        train_df_benign = train_df[train_df["label"] == 0]
+        print(f"\nUsing {len(train_df_benign)} benign samples for model training.")
+
+        best_params = hyperparameter_search(train_df_benign, val_df, features, n_iter=25)
 
         print("\nStep 4: Training final model with best parameters...")
         final_model = DiFF_RF(
             sample_size=best_params["sample_size"], n_trees=best_params["n_trees"]
         )
-        final_model.fit(train_df[features].values, n_jobs=-1)
+        final_model.fit(train_df_benign[features].values, n_jobs=-1)
 
         optimal_threshold = find_optimal_threshold(final_model, val_df, features, best_params)
 
@@ -342,7 +362,7 @@ if __name__ == "__main__":
         for metric, value in results.items():
             print(f"  {metric.replace('_', ' ').capitalize()}: {value:.4f}")
 
-        save_model(final_model, best_params, features, RESULTS_PATH)
+        save_hyperparameters(best_params, features, id_map, RESULTS_PATH)
 
     except Exception as e:
         import traceback

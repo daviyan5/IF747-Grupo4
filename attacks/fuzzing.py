@@ -64,10 +64,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Run a Fuzzing attack on a CAN bus and log sent messages."
     )
-    parser.add_argument("-c", "--channel", default="vcan0", help="CAN interface name")
-    parser.add_argument(
-        "-o", "--output", default="../csv/fuzzing_attack_log.csv", help="Output CSV log file"
-    )
+    parser.add_argument("-c", "--channel", default="vcan0")
+    parser.add_argument("-o", "--output", default="../csv/fuzzing_attack_log.csv")
     args = parser.parse_args()
 
     fuzzing_attack(channel=args.channel, output_file=args.output)

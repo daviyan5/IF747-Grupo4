@@ -31,8 +31,8 @@ class DiFF_RF_Wrapper(BaseEstimator, OutlierMixin):
         self.model.fit(X, n_jobs=-1)
         return self
 
-    def decision_function(self, X):
-        return self.model.anomaly_score(X, alpha=self.alpha)["collective"]
+    def decision_function(self, X, alpha=None):
+        return self.model.anomaly_score(X, alpha=alpha if alpha else self.alpha)
 
     def predict(self, X):
         scores = self.decision_function(X)

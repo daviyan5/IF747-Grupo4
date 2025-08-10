@@ -67,13 +67,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Run a DoS attack on a CAN bus and log sent messages."
     )
-    parser.add_argument("-c", "--channel", default="vcan0", help="CAN interface name")
-    parser.add_argument(
-        "-d", "--duration", type=int, default=60, help="Duration of the attack in seconds"
-    )
-    parser.add_argument(
-        "-o", "--output", default="../csv/dos_attack_log.csv", help="Output CSV log file"
-    )
+    parser.add_argument("-c", "--channel", default="vcan0")
+    parser.add_argument("-d", "--duration", type=int, default=60)
+    parser.add_argument("-o", "--output", default="../csv/dos_attack_log.csv")
     args = parser.parse_args()
 
     dos_attack(channel=args.channel, attack_duration=args.duration, output_file=args.output)

@@ -92,13 +92,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Run a Replay attack on a CAN bus and log sent messages."
     )
-    parser.add_argument("-c", "--channel", default="vcan0", help="CAN interface name")
-    parser.add_argument(
-        "-d", "--duration", type=int, default=10, help="Duration of the recording phase in seconds"
-    )
-    parser.add_argument(
-        "-o", "--output", default="../csv/replay_attack_log.csv", help="Output CSV log file"
-    )
+    parser.add_argument("-c", "--channel", default="vcan0")
+    parser.add_argument("-d", "--duration", type=int, default=10)
+    parser.add_argument("-o", "--output", default="../csv/replay_attack_log.csv")
     args = parser.parse_args()
 
     replay_attack(channel=args.channel, record_duration=args.duration, output_file=args.output)

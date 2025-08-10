@@ -17,18 +17,18 @@ tmux new-session -d -s ${SESSION_NAME}
 tmux rename-window 'Attacks'
 ATTACK_DELAY=3
 
-tmux send-keys "echo '--- DoS Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 dos.py -c ${CAN_INTERFACE} -d 300" C-m
+tmux send-keys "echo '--- DoS Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 dos.py -o /tmp/dos.csv -c ${CAN_INTERFACE} -d 300" C-m
 
 tmux split-window -h
-tmux send-keys "echo '--- Fuzzing Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 fuzzing.py -c ${CAN_INTERFACE}" C-m
+tmux send-keys "echo '--- Fuzzing Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 fuzzing.py -o /tmp/fuzzing.csv -c ${CAN_INTERFACE}" C-m
 
 tmux select-pane -t 0
 tmux split-window -v
-tmux send-keys "echo '--- Spoofing Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 spoofing.py -c ${CAN_INTERFACE}" C-m
+tmux send-keys "echo '--- Spoofing Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 spoofing.py -o /tmp/spoofing.csv -c ${CAN_INTERFACE}" C-m
 
 tmux select-pane -t 1
 tmux split-window -v
-tmux send-keys "echo '--- Replay Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 replay.py -c ${CAN_INTERFACE} -d 15" C-m
+tmux send-keys "echo '--- Replay Attack (starts in ${ATTACK_DELAY}s) ---' && sleep ${ATTACK_DELAY} && python3 replay.py -o /tmp/replay.csv -c ${CAN_INTERFACE} -d 15" C-m
 
 tmux select-layout tiled
 

@@ -22,20 +22,21 @@ tmux new-session -d -s ${SESSION_NAME}
 
 tmux select-pane -t 0
 tmux rename-window 'ECU Simulators'
-tmux send-keys "echo '--- Chassis ECU ---' && python3 chassis.py -c ${CAN_INTERFACE}" C-m
+tmux send-keys "echo '--- Chassis ECU ---' && python3 chassis.py -c ${CAN_INTERFACE} -o /tmp/chassis.csv" C-m
 
 tmux split-window -v
 tmux select-pane -t 1
-tmux send-keys "echo '--- PowerTrain ECU ---' && python3 powertrain.py ../dbc/*.dbc -c ${CAN_INTERFACE}" C-m
+tmux send-keys "echo '--- PowerTrain ECU ---' && python3 powertrain.py ../dbc/*.dbc -c ${CAN_INTERFACE} -o /tmp/powertrain.csv" C-m
 
 tmux split-window -h
 tmux select-pane -t 2
-tmux send-keys "echo '--- Body ECU ---' && python3 body.py ../dbc/*.dbc -c ${CAN_INTERFACE}" C-m
+tmux send-keys "echo '--- Body ECU ---' && python3 body.py ../dbc/*.dbc -c ${CAN_INTERFACE} -o /tmp/body.csv" C-m
 
 tmux select-pane -t 0
 tmux split-window -h
 tmux select-pane -t 1
-tmux send-keys "echo '--- Data Collector ---' && sleep 1 && python3 run_collect.py ../dbc/*.dbc -c ${CAN_INTERFACE}" C-m
+
+tmux send-keys "echo '--- IDS ECU ---' && sleep 1 && python3 model.py -c ${CAN_INTERFACE}" C-m
 
 echo ""
 echo "To view the output, attach to the tmux session with the command:"
