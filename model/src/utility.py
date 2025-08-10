@@ -1,7 +1,3 @@
-"""
-Utility module for the DiFF-RF+ algorithm.
-"""
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -53,29 +49,17 @@ def split_column(column):
 
 def similarity_score(instances, node, alpha):
     """
-    Calculate similarity score between instances and node centroids.
-
-    For each instance, calculates how similar it is to the closest centroid
-    in the node, based on a distance formula and the alpha parameter.
+    Calculate similarity score between instances and the node's central tendency.
+    This score is based on the distance to the mean of the training points in the leaf.
     """
     if len(instances) == 0:
         return 0
 
     d = np.shape(instances)[1]
 
-    # If node has cluster centroids, use them
-    if hasattr(node, "centroids") and node.centroids is not None and len(node.centroids) > 0:
-        min_distances = np.zeros(len(instances))
-        for i, instance in enumerate(instances):
-            sq_distances = np.sum(
-                ((instance - node.centroids) / node.centroid_stds) ** 2 / d, axis=1
-            )
-            min_distances[i] = np.min(sq_distances)
+    similarity = (instances - node.avg) / node.std
 
-        return 2 ** (-alpha * min_distances)
-    else:
-        similarity = (instances - node.avg) / node.std
-        return 2 ** (-alpha * (np.sum((similarity * similarity) / d, axis=1)))
+    return 2 ** (-alpha * (np.sum((similarity * similarity) / d, axis=1)))
 
 
 def empirical_entropy(hist):
