@@ -1,0 +1,1156 @@
+Timestamp,ID (HEX),Message Name,Data (HEX),Decoded Signals,Legitimacy
+1754854330.5762172,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854330.5763457,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854330.5764182,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854330.8385677,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854330.838635,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854330.838679,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854331.2155027,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854331.2155678,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854331.2156103,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854331.3163955,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854331.316446,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854331.316488,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854331.7501056,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854331.7501554,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854331.750197,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854332.0429864,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854332.0430515,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854332.0430825,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854332.50899,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854332.5090306,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854332.509054,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854332.8842936,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854332.884335,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854332.8843606,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854333.2647467,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854333.2648041,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854333.264835,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854333.7106605,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854333.7106934,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854333.710716,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854333.8551984,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854333.8552244,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854333.855257,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854334.2040212,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854334.2040486,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854334.2040694,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854334.3768184,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854334.3768456,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854334.3768654,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854334.4817395,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854334.481767,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854334.481787,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854334.651067,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854334.6510963,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854334.6511166,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854335.0258725,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854335.0259054,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854335.025929,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854335.5251796,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854335.5252125,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854335.5252328,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854335.8722699,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854335.8723013,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854335.872327,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854336.3329525,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854336.3329911,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854336.3330166,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854336.6746066,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854336.6746476,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854336.6746716,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854336.8467035,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854336.8467422,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854336.8467646,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854336.9437099,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854336.9437542,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854336.943779,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854337.2804754,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854337.2805085,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854337.2805314,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854337.4096835,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854337.4097168,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854337.409745,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854337.7425678,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854337.7426014,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854337.7426238,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854338.0260112,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854338.0260444,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854338.026069,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854338.3095288,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854338.3095696,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854338.3095927,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854338.3705783,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854338.3706133,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854338.3706367,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854338.7970002,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854338.7970445,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854338.7970695,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854339.1103535,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854339.1103892,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854339.1104128,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854339.2183921,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854339.2184265,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854339.2184486,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854339.5371382,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854339.5371723,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854339.5372076,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854339.9947896,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854339.9948382,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854339.9948626,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854340.2263772,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854340.2264168,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854340.226442,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854340.3688974,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854340.368934,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854340.3689575,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854340.748486,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854340.7485278,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854340.7485518,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854340.9685686,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854340.9686036,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854340.9686306,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854341.13366,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854341.1336915,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854341.133714,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854341.3666797,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854341.3667288,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854341.3667536,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854341.5255234,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854341.5255637,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854341.525589,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854341.8564954,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854341.8565307,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854341.8565545,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854341.9124534,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854341.9124897,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854341.9125125,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854342.1298952,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854342.1299443,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854342.1299708,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854342.6166966,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854342.6167421,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854342.6167665,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854343.1091301,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854343.1091654,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854343.1091888,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854343.5970576,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854343.5971584,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854343.5972133,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854343.7134109,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854343.7134795,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854343.713536,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854343.7709305,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854343.770988,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854343.7710233,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854344.0322347,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854344.0322723,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854344.0322964,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854344.156213,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854344.156248,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854344.1562705,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854344.3930018,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854344.39304,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854344.3930624,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854344.870648,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854344.8706856,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854344.8707094,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854345.109001,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854345.1090367,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854345.1090653,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854345.6018152,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854345.6018527,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854345.6018755,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854346.0213487,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854346.0214067,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854346.0214474,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854346.4098134,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854346.4098587,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854346.4098852,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854346.4695606,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854346.469605,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854346.469632,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854346.8541763,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854346.8542192,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854346.854253,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854347.2478528,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854347.247885,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854347.2479086,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854347.6278815,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854347.6279192,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854347.6279418,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854347.8097887,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854347.8098228,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854347.8098452,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854348.1626716,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854348.1627045,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854348.1627347,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854348.4850354,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854348.4850757,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854348.4851005,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854348.563815,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854348.5638564,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854348.5638816,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854348.935744,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854348.9357817,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854348.9358056,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854349.3083775,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854349.3084164,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854349.30844,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854349.3711824,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854349.371223,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854349.371252,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854349.7468803,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854349.746925,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854349.7469528,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854349.8811023,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854349.8811367,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854349.881161,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854350.3730736,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854350.3731153,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854350.3731394,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854350.704824,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854350.7048612,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854350.7048838,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854350.829467,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854350.8295016,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854350.8295264,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854351.2314448,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854351.2314875,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854351.2315118,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854351.5493622,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854351.5493925,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854351.549415,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854351.7990327,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854351.7990627,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854351.7990854,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854352.0636334,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854352.0636647,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854352.0636873,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854352.4574904,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854352.457524,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854352.4575522,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854352.6660302,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854352.666052,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854352.6660721,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854352.879587,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854352.8796144,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854352.8796365,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854352.9798517,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854352.97988,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854352.979901,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854353.424782,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854353.4248128,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854353.4248414,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854353.8004909,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854353.800519,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854353.8005452,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854354.177237,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854354.1772733,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854354.1772962,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854354.233703,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854354.233748,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854354.2337742,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854354.648182,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854354.6482167,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854354.648242,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854355.0929015,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854355.0929406,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854355.0929687,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854355.3606281,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854355.3606682,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854355.3606954,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854355.605079,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854355.6051157,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854355.6051486,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854355.8260732,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854355.826103,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854355.8261294,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854356.2238777,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854356.2239094,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854356.2239313,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854356.6322944,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854356.6323473,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854356.6323807,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854356.9126546,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854356.912697,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854356.9127266,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854357.2658827,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854357.2659156,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854357.265939,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854357.3243825,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854357.324417,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854357.3244393,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854357.6288772,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854357.6289155,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854357.6289403,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854358.0817811,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854358.0818143,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854358.0818431,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854358.2626646,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854358.2626936,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854358.2627158,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854358.6681604,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854358.6681948,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854358.6682174,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854358.8598542,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854358.8598866,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854358.8599095,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854359.013676,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854359.01371,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854359.01374,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854359.4905012,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854359.4905372,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854359.4905713,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854359.8622172,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854359.8622544,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854359.8622773,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854360.0579047,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854360.0579374,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854360.057959,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854360.4944134,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854360.4944482,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854360.4944751,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854360.615548,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854360.6155784,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854360.6156037,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854360.988329,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854360.9883678,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854360.9883947,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854361.338158,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854361.3381891,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854361.3382115,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854361.416138,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854361.4161654,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854361.416186,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854361.5934846,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854361.5935192,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854361.5935442,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854361.8383198,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854361.83835,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854361.8383944,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854362.2694666,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854362.269498,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854362.2695236,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854362.472999,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854362.4730327,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854362.4730628,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854362.6969638,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854362.696995,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854362.697018,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854362.7577856,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854362.7578096,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854362.7578294,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854363.1541831,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854363.1542144,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854363.1542408,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854363.5018215,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854363.5018516,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854363.5018744,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854363.72853,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854363.7285602,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854363.728585,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854364.1252384,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854364.1252685,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854364.125291,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854364.3581457,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854364.3581765,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854364.3582096,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854364.5816782,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854364.5817091,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854364.581737,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854364.7878773,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854364.7879071,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854364.7879329,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854364.9740589,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854364.9741044,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854364.9741268,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854365.1503391,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854365.1503718,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854365.1503947,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854365.2945008,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854365.2945325,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854365.294554,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854365.4597743,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854365.459802,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854365.4598224,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854365.8687859,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854365.8688202,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854365.8688538,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854366.1434612,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854366.1434834,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854366.1435022,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854366.5829818,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854366.583012,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854366.5830328,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.0610647,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.0610955,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.061118,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.1875622,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.1875982,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.1876261,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.304875,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.3049014,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.3049242,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.372063,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.372093,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.3721182,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.5816104,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.5816405,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.5816617,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.8810236,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.8810544,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.8810751,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854367.9452522,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854367.9452784,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854367.9452987,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854368.2052007,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854368.2052329,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854368.2052596,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854368.2815554,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854368.2815845,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854368.281605,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854368.6701376,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854368.6701674,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854368.6701903,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.011804,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.0118356,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.0118582,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.0881717,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.0881987,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.088219,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.3374646,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.3374918,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.337513,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.8115172,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.8115492,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.8115706,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.8816228,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.8816533,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.8816757,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854369.9554718,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854369.9554977,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854369.9555168,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854370.013209,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854370.0132384,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854370.0132592,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854370.387819,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854370.3878508,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854370.3878727,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854370.6013286,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854370.6013625,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854370.6013832,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854370.702421,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854370.7024512,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854370.7024736,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854371.1066685,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854371.1067052,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854371.1067324,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854371.595059,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854371.5950913,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854371.595114,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854372.0542035,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854372.0542316,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854372.0542526,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854372.5441554,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854372.5441873,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854372.5442085,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854372.9677362,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854372.9677663,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854372.9677985,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854373.2552922,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854373.2553267,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854373.2553492,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854373.4487586,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854373.4487865,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854373.448807,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854373.725903,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854373.725934,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854373.7259562,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854374.184471,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854374.1845033,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854374.1845264,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854374.2819085,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854374.2819393,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854374.2819655,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854374.359502,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854374.3595312,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854374.3595507,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854374.7075694,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854374.707602,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854374.7076237,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854375.0347753,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854375.0348089,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854375.034835,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854375.125295,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854375.1253266,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854375.1253479,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854375.6071267,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854375.6071575,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854375.6071832,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854375.9628582,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854375.962885,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854375.9629092,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854376.399213,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854376.399242,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854376.3992677,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854376.79295,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854376.79298,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854376.7930007,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854376.9422183,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854376.9422507,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854376.9422734,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854377.0518382,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854377.0518744,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854377.0519009,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854377.4936152,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854377.4936519,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854377.4936736,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854377.6039817,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854377.604021,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854377.6040459,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854377.9037,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854377.9037313,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854377.9037533,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854378.0194116,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854378.0194352,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854378.0194542,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854378.3091652,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854378.3091984,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854378.3092196,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854378.7899728,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854378.7900057,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854378.7900267,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854378.9073758,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854378.9074047,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854378.9074256,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.0876908,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.087727,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.0877514,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.2215588,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.2215912,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.2216132,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.284591,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.2846158,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.2846367,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.3499737,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.3500037,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.3500268,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.743377,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.7434042,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.7434268,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854379.9322064,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854379.9322362,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854379.9322581,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854380.12441,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854380.1244392,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854380.12446,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854380.4763262,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854380.4763558,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854380.476377,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854380.7874472,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854380.7874763,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854380.787497,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854381.1230059,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854381.123035,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854381.123056,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854381.497651,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854381.4976869,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854381.4977078,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854381.574337,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854381.5743635,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854381.574384,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854381.848995,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854381.8490362,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854381.849063,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854381.9172804,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854381.91731,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854381.917338,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854382.0438137,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854382.0438457,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854382.0438666,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854382.5225844,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854382.5226161,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854382.5226371,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854382.9513743,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854382.9514089,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854382.9514313,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854383.1564305,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854383.1564598,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854383.1564822,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854383.5177982,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854383.517831,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854383.5178542,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854383.995364,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854383.9953952,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854383.9954162,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854384.4473443,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854384.4473722,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854384.4473932,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854384.6691766,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854384.6692078,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854384.6692295,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854384.9898734,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854384.989904,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854384.9899282,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854385.3713505,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854385.3713822,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854385.3714035,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854385.6378398,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854385.637873,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854385.6378958,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854386.0555074,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854386.05554,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854386.0555615,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854386.3343658,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854386.3343976,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854386.3344176,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854386.7517803,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854386.7518137,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854386.7518408,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.0054054,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.0054352,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.005456,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.1116693,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.111695,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.1117337,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.3500986,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.35013,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.350152,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.6113052,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.611332,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.611352,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.6871967,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.6872177,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.687236,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854387.828864,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854387.8288968,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854387.828932,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854388.178888,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854388.1789215,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854388.1789434,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854388.6313596,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854388.6313925,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854388.6314144,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854388.7582638,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854388.7582963,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854388.7583177,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854389.0958993,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854389.0959306,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854389.0959651,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854389.2881215,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854389.2881517,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854389.2881732,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854389.5097275,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854389.5097597,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854389.5097814,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854389.6839497,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854389.6839814,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854389.6840074,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854389.986356,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854389.9863894,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854389.986412,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854390.1569245,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854390.156959,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854390.1569824,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854390.5999062,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854390.5999365,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854390.5999577,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854390.734058,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854390.734092,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854390.7341146,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854390.9727092,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854390.9727457,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854390.9727685,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854391.136237,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854391.1362624,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854391.1362824,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854391.3115957,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854391.3116295,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854391.3116515,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854391.5809197,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854391.580949,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854391.5809696,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854391.8221798,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854391.8222115,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854391.8222334,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854392.1237187,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854392.1237545,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854392.123781,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854392.566516,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854392.5665486,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854392.5665731,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854392.7282927,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854392.7283227,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854392.7283437,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854392.8220847,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854392.8221195,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854392.8221416,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854393.2886298,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854393.2886622,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854393.2886844,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854393.7342532,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854393.7342865,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854393.7343097,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854393.8197255,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854393.8197587,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854393.8197832,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.0666218,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.0666542,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.066677,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.186089,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.18612,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.1861424,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.3983445,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.3983786,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.398403,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.4616058,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.461637,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.4616585,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.7772777,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.7773104,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.7773335,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854394.927016,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854394.9270525,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854394.9270773,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854395.0628467,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854395.0628865,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854395.0629082,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854395.1550758,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854395.1551025,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854395.1551232,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854395.2072752,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854395.2073016,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854395.2073255,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854395.5271757,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854395.5272179,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854395.5272403,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854395.971103,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854395.971135,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854395.971169,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854396.447757,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854396.4477901,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854396.4478126,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854396.5489867,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854396.5490232,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854396.5490465,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854396.7672598,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854396.7672923,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854396.7673218,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854396.81749,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854396.817517,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854396.8175418,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854396.9715476,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854396.971589,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854396.9716105,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854397.17841,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854397.178441,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854397.1784637,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854397.386527,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854397.3865554,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854397.3865771,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854397.8018718,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854397.8019018,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854397.8019235,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854397.9130027,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854397.9130337,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854397.913056,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854398.2822778,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854398.2823155,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854398.28234,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854398.4280274,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854398.42806,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854398.4280834,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854398.7540293,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854398.7540627,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854398.7540867,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854399.1372495,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854399.1372812,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854399.1373036,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854399.3838513,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854399.3838832,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854399.3839061,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854399.8307805,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854399.8308144,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854399.8308375,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854400.2244742,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854400.224508,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854400.2245345,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854400.378106,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854400.3781707,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854400.3782074,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854400.6009068,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854400.600943,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854400.6009645,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854400.9074225,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854400.9074547,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854400.9074767,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854401.399633,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854401.3996646,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854401.3996875,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854401.8070927,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854401.8071268,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854401.8071501,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854402.0034828,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854402.0035203,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854402.0035548,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854402.0684278,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854402.068455,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854402.0684755,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854402.307653,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854402.3076859,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854402.3077085,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854402.767428,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854402.767465,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854402.767488,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854403.1903706,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854403.190404,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854403.190439,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854403.3546865,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854403.3547394,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854403.3547666,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854403.7673175,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854403.7673502,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854403.7673724,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854403.9675245,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854403.967555,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854403.9675767,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854404.3123314,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854404.3123622,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854404.312383,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854404.807344,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854404.8073769,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854404.807401,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854405.2486677,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854405.248699,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854405.2487442,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854405.5798244,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854405.579859,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854405.5798807,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854405.962706,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854405.9627535,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854405.962795,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854406.2677886,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854406.2678192,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854406.2678547,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854406.4349203,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854406.4349535,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854406.4349766,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854406.770455,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854406.7704883,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854406.7705114,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854407.0697548,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854407.0697968,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854407.0698223,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854407.3589547,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854407.3589878,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854407.35901,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854407.502864,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854407.5028968,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854407.5029216,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854407.589384,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854407.5894341,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854407.5894608,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854407.880548,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854407.8805847,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854407.8806171,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854408.336676,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854408.336709,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854408.3367417,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854408.8302798,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854408.830313,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854408.8303363,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854409.039046,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854409.0390875,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854409.0391152,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854409.44356,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854409.443612,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854409.4436388,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854409.5932686,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854409.593309,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854409.5933337,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854409.8490362,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854409.849074,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854409.8490977,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854410.2258565,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854410.2258942,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854410.2259169,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854410.4677956,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854410.4678361,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854410.4678617,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854410.6728501,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854410.6728904,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854410.6729143,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854410.8825812,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854410.882619,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854410.8826423,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854411.1234655,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854411.1235046,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854411.123527,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854411.566118,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854411.56615,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854411.5661726,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854411.702876,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854411.7029076,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854411.70293,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854411.7540154,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854411.7540393,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854411.7540572,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854412.0583775,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854412.058419,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854412.0584505,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854412.3428922,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854412.3429353,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854412.342967,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854412.7086658,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854412.7087035,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854412.708736,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854413.0117984,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854413.0118253,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854413.011849,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854413.1069639,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854413.107004,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854413.107027,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854413.540061,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854413.540108,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854413.5401332,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854413.8624225,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854413.8624563,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854413.8624785,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854413.9429443,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854413.9429705,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854413.9429908,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854414.170516,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854414.1705537,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854414.1705763,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854414.2757685,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854414.2757995,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854414.2758212,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854414.7312522,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854414.7312875,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854414.7313118,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854415.2230375,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854415.2230697,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854415.2230923,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854415.3980553,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854415.398113,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854415.3981457,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854415.5095844,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854415.5096216,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854415.5096452,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854415.5606627,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854415.5606966,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854415.5607193,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854415.881921,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854415.8819513,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854415.8819733,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854416.2133682,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854416.213405,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854416.2134342,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854416.6712587,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854416.671293,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854416.6713176,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854416.8256674,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854416.8256962,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854416.825718,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854417.251209,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854417.2512414,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854417.2512646,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854417.6804028,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854417.6804328,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854417.680459,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854418.0189662,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854418.0189972,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854418.0190191,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854418.430273,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854418.4303093,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854418.4303317,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854418.7356215,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854418.7356603,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854418.7356834,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854418.980925,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854418.9809515,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854418.9809725,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854419.316244,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854419.3162751,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854419.3162978,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854419.6674888,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854419.6675274,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854419.6675506,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854419.745779,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854419.7457995,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854419.7458181,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854419.9136562,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854419.9136882,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854419.9137104,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854420.2248845,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854420.2249153,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854420.2249367,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854420.5474198,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854420.54745,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854420.5474722,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854420.9440494,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854420.9440796,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854420.9441125,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854421.2616968,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854421.2617352,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854421.2617571,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854421.6955776,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854421.6956244,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854421.6956499,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854421.852832,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854421.8528621,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854421.852886,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854422.1395829,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854422.1396184,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854422.1396406,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854422.3996267,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854422.3996572,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854422.399679,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854422.729683,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854422.7297175,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854422.7297523,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854423.2275789,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854423.22761,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854423.227645,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854423.3781946,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854423.3782272,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854423.3782513,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854423.787554,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854423.787587,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854423.7876081,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854423.994858,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854423.99489,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854423.994914,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854424.3199365,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854424.3199704,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854424.3199942,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854424.6459632,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854424.6459994,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854424.6460228,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854424.7921572,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854424.7921848,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854424.792205,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854425.0689685,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854425.0690014,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854425.0690248,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854425.3141184,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854425.314149,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854425.3141713,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854425.6449656,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854425.6450105,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854425.6450312,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854425.876857,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854425.876894,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854425.8769155,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854426.2007098,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854426.20075,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854426.2007844,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854426.3310065,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854426.331043,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854426.3310652,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854426.5902917,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854426.5903254,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854426.590351,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854426.757518,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854426.757548,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854426.7575696,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854426.922604,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854426.9226415,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854426.9226675,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854427.185243,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854427.185273,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854427.185294,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854427.545652,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854427.5456972,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854427.5457323,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854427.6198957,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854427.6199226,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854427.6199424,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854428.102634,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854428.1026685,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854428.1026917,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854428.4725888,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854428.47262,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854428.472647,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854428.8274233,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854428.8274627,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854428.8274899,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854428.919602,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854428.9196284,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854428.9196491,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854429.3458364,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854429.345865,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854429.345887,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854429.5879889,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854429.5880253,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854429.5880494,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854430.0592022,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854430.0592253,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854430.0592494,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854430.1644468,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854430.164484,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854430.164507,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854430.3995879,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854430.3996158,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854430.3996449,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854430.7364864,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854430.7365134,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854430.7365336,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854431.2044928,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854431.2045314,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854431.204555,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854431.4429498,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854431.4429774,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854431.4429972,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854431.8484802,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854431.8485172,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854431.848539,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854432.0718439,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854432.0718741,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854432.0718963,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854432.3011491,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854432.3011742,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854432.3011942,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854432.59292,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854432.5929515,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854432.5929801,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854432.732131,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854432.732157,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854432.7321768,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854433.078954,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854433.07899,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854433.0790102,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854433.5017576,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854433.5017905,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854433.5018132,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854433.9289715,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854433.9290147,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854433.9290376,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854433.9992318,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854433.999262,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854433.999284,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854434.156679,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854434.1567054,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854434.1567273,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854434.6276383,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854434.6276824,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854434.6277053,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854434.7173522,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854434.7173784,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854434.7173975,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854435.145466,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854435.1454964,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854435.1455178,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854435.2185388,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854435.2185645,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854435.2185838,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854435.4408917,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854435.4409177,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854435.4409366,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854435.7981114,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854435.798142,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854435.798162,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
+1754854436.1132674,08D,Turn_Signal_Indicator,00,"{""Left_Turn_Active"": 0, ""Right_Turn_Active"": 0, ""Hazard_Active"": 0}",Benign
+1754854436.1133049,0A2,Horn_Operation,00,"{""Horn_Active"": 0}",Benign
+1754854436.1133256,290,Door_Status,0001,"{""Driver_Door_Open"": 0, ""Passenger_Door_Open"": 0, ""Rear_Left_Door_Open"": 0, ""Rear_Right_Door_Open"": 0, ""All_Doors_Locked"": 1}",Benign
