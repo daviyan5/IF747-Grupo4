@@ -114,7 +114,7 @@ class ChassisECU:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=f"{ECU_NAME} Simulator")
     parser.add_argument("-c", "--channel", default=CAN_CHANNEL)
-    parser.add_argument("-o", "--output", default=f"../csv/{ECU_NAME}_log.csv")
+    parser.add_argument("-o", "--output", default=f"../csv/{ECU_NAME.lower()}.csv")
     args = parser.parse_args()
     ecu = ChassisECU(channel=args.channel, output_file=args.output)
     ecu.run()

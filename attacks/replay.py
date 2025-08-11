@@ -57,9 +57,8 @@ def replay_attack(channel="vcan0", record_duration=10, output_file="replay_log.c
             )
 
             while True:
-                random.shuffle(recorded_messages)  # Replay in random order
+                random.shuffle(recorded_messages)
                 for msg in recorded_messages:
-                    # Create a new message object for replay
                     replay_msg = can.Message(
                         arbitration_id=msg.arbitration_id,
                         data=msg.data,
@@ -67,7 +66,6 @@ def replay_attack(channel="vcan0", record_duration=10, output_file="replay_log.c
                     )
                     try:
                         bus.send(replay_msg)
-                        # Log the replayed message
                         writer.writerow(
                             [
                                 time.time(),
@@ -94,7 +92,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("-c", "--channel", default="vcan0")
     parser.add_argument("-d", "--duration", type=int, default=10)
-    parser.add_argument("-o", "--output", default="../csv/replay_attack_log.csv")
+    parser.add_argument("-o", "--output", default="../csv/replay.csv")
     args = parser.parse_args()
 
     replay_attack(channel=args.channel, record_duration=args.duration, output_file=args.output)

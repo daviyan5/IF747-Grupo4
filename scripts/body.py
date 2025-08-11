@@ -138,7 +138,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=f"{ECU_NAME} Simulator")
     parser.add_argument("all_dbc_files", nargs="+")
     parser.add_argument("-c", "--channel", default=CAN_CHANNEL)
-    parser.add_argument("-o", "--output", default=f"../csv/{ECU_NAME}_log.csv")
+    parser.add_argument("-o", "--output", default=f"../csv/{ECU_NAME.lower()}.csv")
     args = parser.parse_args()
     ecu = BodyECU(channel=args.channel, all_dbc_files=args.all_dbc_files, output_file=args.output)
     ecu.run()

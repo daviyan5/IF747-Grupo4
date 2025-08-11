@@ -69,7 +69,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("-c", "--channel", default="vcan0")
     parser.add_argument("-d", "--duration", type=int, default=60)
-    parser.add_argument("-o", "--output", default="../csv/dos_attack_log.csv")
+    parser.add_argument("-o", "--output", default="../csv/dos.csv")
     args = parser.parse_args()
 
     dos_attack(channel=args.channel, attack_duration=args.duration, output_file=args.output)

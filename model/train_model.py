@@ -42,11 +42,11 @@ def calculate_entropy(hex_str):
     return entropy(probs, base=2)
 
 
-def extract_features(df, id_map):
+def extract_features(df):
     df["Data (HEX)"] = df["Data (HEX)"].fillna("0")
     df["ID (HEX)"] = df["ID (HEX)"].fillna("0")
 
-    df["ID_int"] = df["ID (HEX)"].map(id_map).fillna(-1).astype(int)
+    df["ID_int"] = df["ID (HEX)"].apply(lambda x: int(x, 16) if isinstance(x, str) else 0)
     df["time_diff_by_id"] = df.groupby("ID (HEX)")["Timestamp"].diff().fillna(0)
 
     data_bytes_list = (
@@ -98,13 +98,13 @@ def load_and_merge_data(base_csv_path, output_path):
     print("Step 1: Loading and merging data...")
 
     file_paths = {
-        "Body_ECU": os.path.join(base_csv_path, "Body_ECU_log.csv"),
-        "Chassis_ECU": os.path.join(base_csv_path, "Chassis_ECU_log.csv"),
-        "PowerTrain_ECU": os.path.join(base_csv_path, "PowerTrain_ECU_log.csv"),
-        "dos_attack": os.path.join(base_csv_path, "dos_attack_log.csv"),
-        "fuzzing_attack": os.path.join(base_csv_path, "fuzzing_attack_log.csv"),
-        "replay_attack": os.path.join(base_csv_path, "replay_attack_log.csv"),
-        "spoofing_attack": os.path.join(base_csv_path, "spoofing_attack_log.csv"),
+        "Body_ECU": os.path.join(base_csv_path, "body.csv"),
+        "Chassis_ECU": os.path.join(base_csv_path, "chassis.csv"),
+        "PowerTrain_ECU": os.path.join(base_csv_path, "powetrain.csv"),
+        "dos_attack": os.path.join(base_csv_path, "dos.csv"),
+        "fuzzing_attack": os.path.join(base_csv_path, "fuzzing.csv"),
+        "replay_attack": os.path.join(base_csv_path, "replay.csv"),
+        "spoofing_attack": os.path.join(base_csv_path, "spoofing.csv"),
     }
 
     dataframes = []
@@ -303,14 +303,10 @@ def evaluate_model(model, test_data, features, results_path, model_params, thres
     return results
 
 
-def save_hyperparameters(params, features, id_map, results_path):
+def save_hyperparameters(params, features, results_path):
     print("\nStep 7: Saving hyperparameters and artifacts...")
 
-    hyperparams_payload = {
-        "params": params,
-        "features": features,
-        "id_map": id_map,
-    }
+    hyperparams_payload = {"params": params, "features": features}
 
     params_path = os.path.join(results_path, "diff_rf_hyperparams.joblib")
     joblib.dump(hyperparams_payload, params_path)
@@ -335,11 +331,10 @@ if __name__ == "__main__":
         test_df_raw = pd.read_csv(test_path)
 
         all_ids = train_df_raw["ID (HEX)"].unique()
-        id_map = {id_val: i for i, id_val in enumerate(all_ids)}
 
-        train_df, features = extract_features(train_df_raw, id_map)
-        val_df, _ = extract_features(val_df_raw, id_map)
-        test_df, _ = extract_features(test_df_raw, id_map)
+        train_df, features = extract_features(train_df_raw)
+        val_df, _ = extract_features(val_df_raw)
+        test_df, _ = extract_features(test_df_raw)
 
         train_df_benign = train_df[train_df["label"] == 0]
         print(f"\nUsing {len(train_df_benign)} benign samples for model training.")
@@ -362,7 +357,7 @@ if __name__ == "__main__":
         for metric, value in results.items():
             print(f"  {metric.replace('_', ' ').capitalize()}: {value:.4f}")
 
-        save_hyperparameters(best_params, features, id_map, RESULTS_PATH)
+        save_hyperparameters(best_params, features, RESULTS_PATH)
 
     except Exception as e:
         import traceback

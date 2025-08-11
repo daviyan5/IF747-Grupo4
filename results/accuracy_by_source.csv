@@ -1,8 +1,7 @@
 Source,accuracy
-Body_ECU,0.9987760097919217
-Chassis_ECU,0.9948519948519948
-PowerTrain_ECU,0.985663082437276
+Body_ECU,0.9126506024096386
+Chassis_ECU,0.6666666666666666
 dos_attack,1.0
 fuzzing_attack,1.0
-replay_attack,0.5942857142857143
+replay_attack,0.7446808510638298
 spoofing_attack,1.0
